@@ -19,3 +19,11 @@ Route::get('/', function () {
         'text' => 'I am laravel'
     ]);
 });
+
+Route::get('/about', function () {
+    
+    return view('about', [
+        'title' => 'Lorem Ipsum'
+    ]);
+})->name('about');
+

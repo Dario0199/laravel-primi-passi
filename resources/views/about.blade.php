@@ -8,14 +8,10 @@
 </head>
 <body>
     <header>
-        <a href="/">home</a><br>
-        <a href="{{ route('about') }}">about</a>    
-        <h1>Hello Word</h1>
-    </header>    
-
+        <a href="/">home</a>
+    </header>
     <main>
-        <h1>{{ $text }}</h1>
+        <h1>{{ $title }}</h1>
     </main>
-
 </body>
 </html>
